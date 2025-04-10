@@ -1,0 +1,20 @@
+[project]
+title = "Item Sales Explorer 📦 "
+version = "0.1.0"
+port = 8501
+slug = "item-sales-explorer"
+entrypoint = "hello.py"
+
+[branding]
+name = "Item Sales Dashboard"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#3498db"  # (Light Blue)
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
